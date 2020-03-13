@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(tidyverse)
+```
+
+```{r}
+er_wait_times <- read_csv("waittimes_record.csv")
+```
+
+
+```{r}
+er_wait_times %>% 
+  ggplot(aes(x = read_timestamp, y = total_minutes)) + 
+  geom_point() +
+  geom_line(aes(color = site_labels)) + 
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
