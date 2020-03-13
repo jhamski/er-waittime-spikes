@@ -1,11 +1,10 @@
-
-
 library(tidyverse)
 library(rvest)    
 library(stringr)
 library(gsheet)
 library(lubridate)
 
+setwd("/Users/Jim/Documents/R/er-waitime-spikes")
 
 realtime_hospital_list <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1MCiyFx-kC2Et88taXHt49x4W0PTJboJ93A-SmZ9Ed4Q/edit?usp=sharing")
 
