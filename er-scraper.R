@@ -81,4 +81,21 @@ waittimes_record_updated <- bind_rows(waittimes_record_existing, waittimes_recor
 
 write_csv(waittimes_record_updated, path = "waittimes_record.csv")
 
+
+fairview_park_url <- "https://fairviewparkhospital.com/about/legal/er-wait-times.dot"
+fairview_park_content <- read_html(fairview_park_url)
+fairview_park_read_timestamp = Sys.time()
+
+fairview_park_wait <- fairview_park_content %>% 
+  rvest::html_nodes('body') %>% 
+  xml2::xml_find_all("//div[contains(@class, 'time-box')]") %>% 
+  rvest::html_text() %>% 
+  str_match_all("[0-9]+") %>% 
+  unlist() %>% 
+  as.numeric() %>% 
+  tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+  mutate(hospital_webpage = "Mary Washington",
+         total_minutes = as.numeric(scraped_waittimes),
+         read_timestamp = fairview_park_read_timestamp, 
+         site_labels = fairview_park_labels)
 print(paste0("Scraped ER wait times at: ", Sys.time()))
