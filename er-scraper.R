@@ -6,8 +6,6 @@ library(lubridate)
 
 setwd("/Users/Jim/Documents/R/er-waitime-spikes")
 
-realtime_hospital_list <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1MCiyFx-kC2Et88taXHt49x4W0PTJboJ93A-SmZ9Ed4Q/edit?usp=sharing")
-
 waittimes_record_existing <- read_csv("waittimes_record.csv")
 scrape_waittimes <- function(){
   
@@ -119,8 +117,9 @@ scrape_waittimes <- function(){
 
 waittimes_record <- scrape_waittimes() 
 waittimes_record_updated <- bind_rows(waittimes_record_existing, waittimes_record)
-
 write_csv(waittimes_record_updated, path = "waittimes_record.csv")
+write_csv(waittimes_record_updated, path = "ER-Wait-Time-Spikes/waittimes_record.csv")
+
 print(paste0("Scraped ER wait times at: ", Sys.time()))
 
 

@@ -1,26 +1,29 @@
-#
-# This is the server logic of a Shiny web application. You can run the
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
+source("global.R")
+
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
 
-    output$distPlot <- renderPlot({
+    output$all_observations_scatterplot <- renderPlot({
 
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
+        er_wait_times %>% 
+            ggplot(aes(x = read_timestamp, y = total_minutes)) + 
+            geom_point() +
+            #geom_line(aes(color = hospital_webpage)) + 
+            theme_minimal() +
+            geom_smooth() + 
+            theme(legend.position = "none") + 
+        xlab("Timestamp (UTC)") +
+        ylab("Stated Public Wait Time (Minutes)")
+        
 
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
-
+    })
+    
+    output$facilities_tracked <- renderDT({
+      er_wait_times %>% 
+        select(hospital_webpage, site_labels, total_minutes, read_timestamp, State, URL)
     })
 
 })

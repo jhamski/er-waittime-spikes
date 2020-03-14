@@ -9,8 +9,12 @@ library(tibbletime)
 library(forecast)
 ```
 
+Note timestamp is in UTC timezone. 
 ```{r}
 er_wait_times <- read_csv("waittimes_record.csv")
+
+realtime_hospital_list <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1MCiyFx-kC2Et88taXHt49x4W0PTJboJ93A-SmZ9Ed4Q/edit?usp=sharing")
+
 ```
 
 
@@ -25,6 +29,11 @@ er_wait_times %>%
 ```
 
 ```{r}
-
+er_wait_times %>% 
+  ggplot(aes(x = hospital_webpage, y = total_minutes)) +
+  geom_boxplot() + 
+  stat_summary(fun.data = give.n, geom = "text", fun.y = median,
+                  position = position_dodge(width = 0.75)) +
+  theme_minimal()
 ```
 
