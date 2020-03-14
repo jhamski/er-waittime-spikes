@@ -5,6 +5,7 @@ output: html_notebook
 ```{r}
 library(tidyverse)
 library(anomalize)
+library(tibbletime)
 library(forecast)
 ```
 
