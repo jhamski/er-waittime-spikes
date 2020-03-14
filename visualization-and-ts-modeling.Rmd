@@ -17,8 +17,9 @@ er_wait_times <- read_csv("waittimes_record.csv")
 er_wait_times %>% 
   ggplot(aes(x = read_timestamp, y = total_minutes)) + 
   geom_point() +
-  geom_line(aes(color = site_labels)) + 
+  #geom_line(aes(color = hospital_webpage)) + 
   theme_minimal() +
+  geom_smooth() + 
   theme(legend.position = "none")
 ```
 

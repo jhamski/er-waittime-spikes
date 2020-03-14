@@ -69,9 +69,32 @@ scrape_waittimes <- function(){
            read_timestamp = atrium_read_timestamp, 
            site_labels = atrium_site_labels)
   
+  kaleida_content <- "https://m.kaleidahealth.org/er/"
+  kaleida_content <- read_html(kaleida_content)
+  kaleida_read_timestamp = Sys.time()
+  
+  kaleida_labels <- kaleida_content %>% 
+    rvest::html_nodes('body') %>% 
+    xml2::xml_find_all("//div[contains(@class, 'er-wait-hospital-listview')]") %>% 
+    rvest::html_text(trim = TRUE)
+  
+  kaleida_wait <- kaleida_content %>% 
+    rvest::html_nodes('body') %>% 
+    xml2::xml_find_all("//div[contains(@class, 'er-wait-listview')]") %>% 
+    rvest::html_text() %>% 
+    str_match_all("[0-9]+") %>% 
+    unlist() %>% 
+    as.numeric() %>% 
+    tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+    mutate(hospital_webpage = "Kaleida",
+           total_minutes = as.numeric(scraped_waittimes),
+           read_timestamp = kaleida_read_timestamp, 
+           site_labels = kaleida_labels)
+  
   waittimes_record = atrium_waittimes %>% 
     select(scraped_waittimes, hospital_webpage, total_minutes, read_timestamp, site_labels) %>% 
-    bind_rows(mary_washington_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)))
+    bind_rows(mary_washington_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)),
+              kaleida_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)))
   
   return(waittimes_record)
 }
@@ -80,6 +103,7 @@ waittimes_record <- scrape_waittimes()
 waittimes_record_updated <- bind_rows(waittimes_record_existing, waittimes_record)
 
 write_csv(waittimes_record_updated, path = "waittimes_record.csv")
+print(paste0("Scraped ER wait times at: ", Sys.time()))
 
 
 fairview_park_url <- "https://fairviewparkhospital.com/about/legal/er-wait-times.dot"
@@ -94,8 +118,13 @@ fairview_park_wait <- fairview_park_content %>%
   unlist() %>% 
   as.numeric() %>% 
   tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
-  mutate(hospital_webpage = "Mary Washington",
+  mutate(hospital_webpage = "Fairview Park",
          total_minutes = as.numeric(scraped_waittimes),
          read_timestamp = fairview_park_read_timestamp, 
          site_labels = fairview_park_labels)
-print(paste0("Scraped ER wait times at: ", Sys.time()))
+
+
+
+
+
+
