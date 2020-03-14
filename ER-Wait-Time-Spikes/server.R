@@ -9,14 +9,13 @@ shinyServer(function(input, output) {
     output$all_observations_scatterplot <- renderPlot({
 
         er_wait_times %>% 
-            ggplot(aes(x = read_timestamp, y = total_minutes)) + 
-            geom_point() +
-            #geom_line(aes(color = hospital_webpage)) + 
-            theme_minimal() +
-            geom_smooth() + 
-            theme(legend.position = "none") + 
-        xlab("Timestamp (UTC)") +
-        ylab("Stated Public Wait Time (Minutes)")
+          ggplot(aes(x = read_timestamp, y = total_minutes)) + 
+          geom_point(aes(color = State)) +
+          #geom_line(aes(color = hospital_webpage)) + 
+          theme_minimal() +
+          geom_smooth() +
+          xlab("Timestamp (UTC)") +
+          ylab("Stated Public Wait Time (Minutes)")
         
 
     })

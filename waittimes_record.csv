@@ -3074,67 +3074,67 @@ scraped_waittimes,hospital_webpage,total_minutes,read_timestamp,site_labels
 						5 Minutes*",NYU Langone,5,2020-03-14T16:26:19Z,NYU Langone Health—Cobble Hill
 "
                                             Estimated Wait Time:24 Minutes
-                                        ",Atrium,24,2020-03-14T17:11:04Z,Atrium Health Anson
+",Atrium,24,2020-03-14T17:11:04Z,Atrium Health Anson
 "
                                             Estimated Wait Time:27 Minutes
-                                        ",Atrium,27,2020-03-14T17:11:04Z,Atrium Health Cabarrus
+",Atrium,27,2020-03-14T17:11:04Z,Atrium Health Cabarrus
 "
                                             Estimated Wait Time: less than 15 minutes
-                                        ",Atrium,15,2020-03-14T17:11:04Z,Atrium Health Cleveland
+",Atrium,15,2020-03-14T17:11:04Z,Atrium Health Cleveland
 "
                                             Estimated Wait Time:43 Minutes
-                                        ",Atrium,43,2020-03-14T17:11:04Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+",Atrium,43,2020-03-14T17:11:04Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
 "
                                             Estimated Wait Time:25 Minutes
-                                        ",Atrium,25,2020-03-14T17:11:04Z,Atrium Health Huntersville
+",Atrium,25,2020-03-14T17:11:04Z,Atrium Health Huntersville
 "
                                             Estimated Wait Time:36 Minutes
-                                        ",Atrium,36,2020-03-14T17:11:04Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+",Atrium,36,2020-03-14T17:11:04Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
 "
                                             Estimated Wait Time: less than 15 minutes
-                                        ",Atrium,15,2020-03-14T17:11:04Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+",Atrium,15,2020-03-14T17:11:04Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
 "
                                             Estimated Wait Time:19 Minutes
-                                        ",Atrium,19,2020-03-14T17:11:04Z,Atrium Health Lincoln
+",Atrium,19,2020-03-14T17:11:04Z,Atrium Health Lincoln
 "
                                             Estimated Wait Time:30 Minutes
-                                        ",Atrium,30,2020-03-14T17:11:04Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+",Atrium,30,2020-03-14T17:11:04Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
 "
                                             Estimated Wait Time: 1 hours 38 Minutes
-                                        ",Atrium,98,2020-03-14T17:11:04Z,Atrium Health Pineville
+",Atrium,98,2020-03-14T17:11:04Z,Atrium Health Pineville
 "
                                             Estimated Wait Time:17 Minutes
-                                        ",Atrium,17,2020-03-14T17:11:04Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+",Atrium,17,2020-03-14T17:11:04Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
 "
                                             Estimated Wait Time:17 Minutes
-                                        ",Atrium,17,2020-03-14T17:11:04Z,Atrium Health Stanly
+",Atrium,17,2020-03-14T17:11:04Z,Atrium Health Stanly
 "
                                             Estimated Wait Time:21 Minutes
-                                        ",Atrium,21,2020-03-14T17:11:04Z,Atrium Health Steele Creek
+",Atrium,21,2020-03-14T17:11:04Z,Atrium Health Steele Creek
 "
                                             Estimated Wait Time:24 Minutes
-                                        ",Atrium,24,2020-03-14T17:11:04Z,Atrium Health Union
+",Atrium,24,2020-03-14T17:11:04Z,Atrium Health Union
 "
                                             Estimated Wait Time:18 Minutes
-                                        ",Atrium,18,2020-03-14T17:11:04Z,Atrium Health University City
+",Atrium,18,2020-03-14T17:11:04Z,Atrium Health University City
 "
                                             Estimated Wait Time:44 Minutes
-                                        ",Atrium,44,2020-03-14T17:11:04Z,Atrium Health Waxhaw
+",Atrium,44,2020-03-14T17:11:04Z,Atrium Health Waxhaw
 "
                                             Estimated Wait Time:20 Minutes
-                                        ",Atrium,20,2020-03-14T17:11:04Z,Carolinas HealthCare System Blue Ridge-Morganton
+",Atrium,20,2020-03-14T17:11:04Z,Carolinas HealthCare System Blue Ridge-Morganton
 "
                                             Estimated Wait Time:19 Minutes
-                                        ",Atrium,19,2020-03-14T17:11:04Z,Carolinas HealthCare System Blue Ridge-Valdese
+",Atrium,19,2020-03-14T17:11:04Z,Carolinas HealthCare System Blue Ridge-Valdese
 "
                                             Estimated Wait Time:41 Minutes
-                                        ",Atrium,41,2020-03-14T17:11:04Z,Carolinas Medical Center
+",Atrium,41,2020-03-14T17:11:04Z,Carolinas Medical Center
 "
                                             Estimated Wait Time:22 Minutes
-                                        ",Atrium,22,2020-03-14T17:11:04Z,Levine Children's Hospital
-11,Mary Washington,11,2020-03-14T17:11:04Z,Lee's Hill Emergency 
-22,Mary Washington,22,2020-03-14T17:11:04Z,Mary Washington Hospital 
-10,Mary Washington,10,2020-03-14T17:11:04Z,Stafford Hospital 
+",Atrium,22,2020-03-14T17:11:04Z,Levine Children's Hospital
+11,Mary Washington,11,2020-03-14T17:11:04Z,Lee's Hill Emergency
+22,Mary Washington,22,2020-03-14T17:11:04Z,Mary Washington Hospital
+10,Mary Washington,10,2020-03-14T17:11:04Z,Stafford Hospital
 9,Kaleida,9,2020-03-14T17:11:05Z,Buffalo General Medical CenterBuffalo
 40,Kaleida,40,2020-03-14T17:11:05Z,DeGraff Memorial HospitalNorth Tonawanda
 12,Kaleida,12,2020-03-14T17:11:05Z,Millard Fillmore Suburban HospitalWilliamsville
@@ -3143,3 +3143,429 @@ scraped_waittimes,hospital_webpage,total_minutes,read_timestamp,site_labels
 						13 Minutes*",NYU Langone,13,2020-03-14T17:11:05Z,NYU Langone Hospital<e2><80><94>Brooklyn
 "
 						4 Minutes*",NYU Langone,4,2020-03-14T17:11:05Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:17 Minutes
+",Atrium,17,2020-03-14T18:11:03Z,Atrium Health Anson
+"
+                                            Estimated Wait Time: 1 hours 4 Minutes
+",Atrium,64,2020-03-14T18:11:03Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time:16 Minutes
+",Atrium,16,2020-03-14T18:11:03Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:15 Minutes
+",Atrium,15,2020-03-14T18:11:03Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T18:11:03Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time: 1 hours 4 Minutes
+",Atrium,64,2020-03-14T18:11:03Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:15 Minutes
+",Atrium,15,2020-03-14T18:11:03Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:23 Minutes
+",Atrium,23,2020-03-14T18:11:03Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time:31 Minutes
+",Atrium,31,2020-03-14T18:11:03Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:39 Minutes
+",Atrium,39,2020-03-14T18:11:03Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T18:11:03Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:21 Minutes
+",Atrium,21,2020-03-14T18:11:03Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:21 Minutes
+",Atrium,21,2020-03-14T18:11:03Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:22 Minutes
+",Atrium,22,2020-03-14T18:11:03Z,Atrium Health Union
+"
+                                            Estimated Wait Time:25 Minutes
+",Atrium,25,2020-03-14T18:11:03Z,Atrium Health University City
+"
+                                            Estimated Wait Time:28 Minutes
+",Atrium,28,2020-03-14T18:11:03Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:35 Minutes
+",Atrium,35,2020-03-14T18:11:03Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time:16 Minutes
+",Atrium,16,2020-03-14T18:11:03Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time: 1 hours 12 Minutes
+",Atrium,72,2020-03-14T18:11:03Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:25 Minutes
+",Atrium,25,2020-03-14T18:11:03Z,Levine Children's Hospital
+15,Mary Washington,15,2020-03-14T18:11:03Z,Lee's Hill Emergency
+32,Mary Washington,32,2020-03-14T18:11:03Z,Mary Washington Hospital
+12,Mary Washington,12,2020-03-14T18:11:03Z,Stafford Hospital
+18,Kaleida,18,2020-03-14T18:11:04Z,Buffalo General Medical CenterBuffalo
+8,Kaleida,8,2020-03-14T18:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+11,Kaleida,11,2020-03-14T18:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+13,Kaleida,13,2020-03-14T18:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						17 Minutes*",NYU Langone,17,2020-03-14T18:11:04Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						5 Minutes*",NYU Langone,5,2020-03-14T18:11:04Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:26 Minutes
+",Atrium,26,2020-03-14T19:11:04Z,Atrium Health Anson
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T19:11:04Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T19:11:04Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:21 Minutes
+",Atrium,21,2020-03-14T19:11:04Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T19:11:04Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time: 1 hours 9 Minutes
+",Atrium,69,2020-03-14T19:11:04Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:26 Minutes
+",Atrium,26,2020-03-14T19:11:04Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T19:11:04Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time:38 Minutes
+",Atrium,38,2020-03-14T19:11:04Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T19:11:04Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:26 Minutes
+",Atrium,26,2020-03-14T19:11:04Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:16 Minutes
+",Atrium,16,2020-03-14T19:11:04Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:29 Minutes
+",Atrium,29,2020-03-14T19:11:04Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:22 Minutes
+",Atrium,22,2020-03-14T19:11:04Z,Atrium Health Union
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T19:11:04Z,Atrium Health University City
+"
+                                            Estimated Wait Time:28 Minutes
+",Atrium,28,2020-03-14T19:11:04Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:43 Minutes
+",Atrium,43,2020-03-14T19:11:04Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time:25 Minutes
+",Atrium,25,2020-03-14T19:11:04Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time:45 Minutes
+",Atrium,45,2020-03-14T19:11:04Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:55 Minutes
+",Atrium,55,2020-03-14T19:11:04Z,Levine Children's Hospital
+27,Mary Washington,27,2020-03-14T19:11:03Z,Lee's Hill Emergency
+35,Mary Washington,35,2020-03-14T19:11:03Z,Mary Washington Hospital
+15,Mary Washington,15,2020-03-14T19:11:03Z,Stafford Hospital
+23,Kaleida,23,2020-03-14T19:11:04Z,Buffalo General Medical CenterBuffalo
+0,Kaleida,0,2020-03-14T19:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+15,Kaleida,15,2020-03-14T19:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+13,Kaleida,13,2020-03-14T19:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						19 Minutes*",NYU Langone,19,2020-03-14T19:11:05Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						5 Minutes*",NYU Langone,5,2020-03-14T19:11:05Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:18 Minutes
+",Atrium,18,2020-03-14T20:11:03Z,Atrium Health Anson
+"
+                                            Estimated Wait Time:43 Minutes
+",Atrium,43,2020-03-14T20:11:03Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T20:11:03Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:17 Minutes
+",Atrium,17,2020-03-14T20:11:03Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T20:11:03Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time:58 Minutes
+",Atrium,58,2020-03-14T20:11:03Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:42 Minutes
+",Atrium,42,2020-03-14T20:11:03Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:17 Minutes
+",Atrium,17,2020-03-14T20:11:03Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time:44 Minutes
+",Atrium,44,2020-03-14T20:11:03Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T20:11:03Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:23 Minutes
+",Atrium,23,2020-03-14T20:11:03Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T20:11:03Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T20:11:03Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:36 Minutes
+",Atrium,36,2020-03-14T20:11:03Z,Atrium Health Union
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T20:11:03Z,Atrium Health University City
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T20:11:03Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T20:11:03Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T20:11:03Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time:46 Minutes
+",Atrium,46,2020-03-14T20:11:03Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:45 Minutes
+",Atrium,45,2020-03-14T20:11:03Z,Levine Children's Hospital
+16,Mary Washington,16,2020-03-14T20:11:03Z,Lee's Hill Emergency
+51,Mary Washington,51,2020-03-14T20:11:03Z,Mary Washington Hospital
+19,Mary Washington,19,2020-03-14T20:11:03Z,Stafford Hospital
+60,Kaleida,60,2020-03-14T20:11:04Z,Buffalo General Medical CenterBuffalo
+0,Kaleida,0,2020-03-14T20:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+48,Kaleida,48,2020-03-14T20:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+21,Kaleida,21,2020-03-14T20:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						22 Minutes*",NYU Langone,22,2020-03-14T20:11:05Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						7 Minutes*",NYU Langone,7,2020-03-14T20:11:05Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:18 Minutes
+",Atrium,18,2020-03-14T21:11:03Z,Atrium Health Anson
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T21:11:03Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T21:11:03Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:50 Minutes
+",Atrium,50,2020-03-14T21:11:03Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T21:11:03Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time: 1 hours 13 Minutes
+",Atrium,73,2020-03-14T21:11:03Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T21:11:03Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T21:11:03Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time:51 Minutes
+",Atrium,51,2020-03-14T21:11:03Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:40 Minutes
+",Atrium,40,2020-03-14T21:11:03Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T21:11:03Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T21:11:03Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:19 Minutes
+",Atrium,19,2020-03-14T21:11:03Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:18 Minutes
+",Atrium,18,2020-03-14T21:11:03Z,Atrium Health Union
+"
+                                            Estimated Wait Time:22 Minutes
+",Atrium,22,2020-03-14T21:11:03Z,Atrium Health University City
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T21:11:03Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:15 Minutes
+",Atrium,15,2020-03-14T21:11:03Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T21:11:03Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time:37 Minutes
+",Atrium,37,2020-03-14T21:11:03Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:47 Minutes
+",Atrium,47,2020-03-14T21:11:03Z,Levine Children's Hospital
+16,Mary Washington,16,2020-03-14T21:11:03Z,Lee's Hill Emergency
+57,Mary Washington,57,2020-03-14T21:11:03Z,Mary Washington Hospital
+38,Mary Washington,38,2020-03-14T21:11:03Z,Stafford Hospital
+60,Kaleida,60,2020-03-14T21:11:04Z,Buffalo General Medical CenterBuffalo
+4,Kaleida,4,2020-03-14T21:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+4,Kaleida,4,2020-03-14T21:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+17,Kaleida,17,2020-03-14T21:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						20 Minutes*",NYU Langone,20,2020-03-14T21:11:04Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						8 Minutes*",NYU Langone,8,2020-03-14T21:11:04Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T22:11:04Z,Atrium Health Anson
+"
+                                            Estimated Wait Time: 1 hours 30 Minutes
+",Atrium,90,2020-03-14T22:11:04Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T22:11:04Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T22:11:04Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:32 Minutes
+",Atrium,32,2020-03-14T22:11:04Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time:52 Minutes
+",Atrium,52,2020-03-14T22:11:04Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T22:11:04Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:37 Minutes
+",Atrium,37,2020-03-14T22:11:04Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time: 1 hours
+",Atrium,NA,2020-03-14T22:11:04Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:39 Minutes
+",Atrium,39,2020-03-14T22:11:04Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:31 Minutes
+",Atrium,31,2020-03-14T22:11:04Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time: less than 15 minutes
+",Atrium,15,2020-03-14T22:11:04Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:20 Minutes
+",Atrium,20,2020-03-14T22:11:04Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:24 Minutes
+",Atrium,24,2020-03-14T22:11:04Z,Atrium Health Union
+"
+                                            Estimated Wait Time:34 Minutes
+",Atrium,34,2020-03-14T22:11:04Z,Atrium Health University City
+"
+                                            Estimated Wait Time:34 Minutes
+",Atrium,34,2020-03-14T22:11:04Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:31 Minutes
+",Atrium,31,2020-03-14T22:11:04Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time:25 Minutes
+",Atrium,25,2020-03-14T22:11:04Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time:30 Minutes
+",Atrium,30,2020-03-14T22:11:04Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:28 Minutes
+",Atrium,28,2020-03-14T22:11:04Z,Levine Children's Hospital
+16,Mary Washington,16,2020-03-14T22:11:03Z,Lee's Hill Emergency
+55,Mary Washington,55,2020-03-14T22:11:03Z,Mary Washington Hospital
+57,Mary Washington,57,2020-03-14T22:11:03Z,Stafford Hospital
+60,Kaleida,60,2020-03-14T22:11:04Z,Buffalo General Medical CenterBuffalo
+0,Kaleida,0,2020-03-14T22:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+4,Kaleida,4,2020-03-14T22:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+16,Kaleida,16,2020-03-14T22:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						13 Minutes*",NYU Langone,13,2020-03-14T22:11:05Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						8 Minutes*",NYU Langone,8,2020-03-14T22:11:05Z,NYU Langone Health<e2><80><94>Cobble Hill
+"
+                                            Estimated Wait Time:22 Minutes
+                                        ",Atrium,22,2020-03-14T23:11:04Z,Atrium Health Anson
+"
+                                            Estimated Wait Time: 1 hours 58 Minutes
+                                        ",Atrium,118,2020-03-14T23:11:04Z,Atrium Health Cabarrus
+"
+                                            Estimated Wait Time: less than 15 minutes
+                                        ",Atrium,15,2020-03-14T23:11:04Z,Atrium Health Cleveland
+"
+                                            Estimated Wait Time:26 Minutes
+                                        ",Atrium,26,2020-03-14T23:11:04Z,"Atrium Health Harrisburg Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:34 Minutes
+                                        ",Atrium,34,2020-03-14T23:11:04Z,Atrium Health Huntersville
+"
+                                            Estimated Wait Time: 1 hours 20 Minutes
+                                        ",Atrium,80,2020-03-14T23:11:04Z,"Atrium Health Kannapolis Emergency Department, a facility of Atrium Health Cabarrus"
+"
+                                            Estimated Wait Time:22 Minutes
+                                        ",Atrium,22,2020-03-14T23:11:04Z,"Atrium Health Kings Mountain, a facility of Atrium Health Cleveland"
+"
+                                            Estimated Wait Time:52 Minutes
+                                        ",Atrium,52,2020-03-14T23:11:04Z,Atrium Health Lincoln
+"
+                                            Estimated Wait Time:48 Minutes
+                                        ",Atrium,48,2020-03-14T23:11:04Z,"Atrium Health Mercy, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:49 Minutes
+                                        ",Atrium,49,2020-03-14T23:11:04Z,Atrium Health Pineville
+"
+                                            Estimated Wait Time:43 Minutes
+                                        ",Atrium,43,2020-03-14T23:11:04Z,"Atrium Health SouthPark Emergency Department, a facility of Carolinas Medical Center"
+"
+                                            Estimated Wait Time:17 Minutes
+                                        ",Atrium,17,2020-03-14T23:11:04Z,Atrium Health Stanly
+"
+                                            Estimated Wait Time:16 Minutes
+                                        ",Atrium,16,2020-03-14T23:11:04Z,Atrium Health Steele Creek
+"
+                                            Estimated Wait Time:18 Minutes
+                                        ",Atrium,18,2020-03-14T23:11:04Z,Atrium Health Union
+"
+                                            Estimated Wait Time:28 Minutes
+                                        ",Atrium,28,2020-03-14T23:11:04Z,Atrium Health University City
+"
+                                            Estimated Wait Time:40 Minutes
+                                        ",Atrium,40,2020-03-14T23:11:04Z,Atrium Health Waxhaw
+"
+                                            Estimated Wait Time:56 Minutes
+                                        ",Atrium,56,2020-03-14T23:11:04Z,Carolinas HealthCare System Blue Ridge-Morganton
+"
+                                            Estimated Wait Time:20 Minutes
+                                        ",Atrium,20,2020-03-14T23:11:04Z,Carolinas HealthCare System Blue Ridge-Valdese
+"
+                                            Estimated Wait Time: 1 hours 16 Minutes
+                                        ",Atrium,76,2020-03-14T23:11:04Z,Carolinas Medical Center
+"
+                                            Estimated Wait Time:36 Minutes
+                                        ",Atrium,36,2020-03-14T23:11:04Z,Levine Children's Hospital
+10,Mary Washington,10,2020-03-14T23:11:03Z,Lee's Hill Emergency 
+40,Mary Washington,40,2020-03-14T23:11:03Z,Mary Washington Hospital 
+76,Mary Washington,76,2020-03-14T23:11:03Z,Stafford Hospital 
+59,Kaleida,59,2020-03-14T23:11:04Z,Buffalo General Medical CenterBuffalo
+5,Kaleida,5,2020-03-14T23:11:04Z,DeGraff Memorial HospitalNorth Tonawanda
+8,Kaleida,8,2020-03-14T23:11:04Z,Millard Fillmore Suburban HospitalWilliamsville
+3,Kaleida,3,2020-03-14T23:11:04Z,John R. Oishei Children's HospitalBuffalo
+"
+						11 Minutes*",NYU Langone,11,2020-03-14T23:11:05Z,NYU Langone Hospital<e2><80><94>Brooklyn
+"
+						8 Minutes*",NYU Langone,8,2020-03-14T23:11:05Z,NYU Langone Health<e2><80><94>Cobble Hill

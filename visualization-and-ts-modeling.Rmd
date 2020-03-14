@@ -15,17 +15,18 @@ er_wait_times <- read_csv("waittimes_record.csv")
 
 realtime_hospital_list <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1MCiyFx-kC2Et88taXHt49x4W0PTJboJ93A-SmZ9Ed4Q/edit?usp=sharing")
 
+er_wait_times <- er_wait_times %>% 
+  left_join(realtime_hospital_list, by = "site_labels")
 ```
 
 
 ```{r}
 er_wait_times %>% 
   ggplot(aes(x = read_timestamp, y = total_minutes)) + 
-  geom_point() +
+  geom_point(aes(color = State)) +
   #geom_line(aes(color = hospital_webpage)) + 
   theme_minimal() +
-  geom_smooth() + 
-  theme(legend.position = "none")
+  geom_smooth() 
 ```
 
 ```{r}

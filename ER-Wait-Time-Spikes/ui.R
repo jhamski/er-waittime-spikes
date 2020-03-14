@@ -18,8 +18,9 @@ shinyUI(
         dashboardBody(
             fluidPage(
                 "This app uses web scraping to observe stated Emergency Room (ER) wait times for facilities in the United States. It is informational purposes only and should not be used for any decision making. If you are having a medical emergency, call 911.",
-                " Given the current coronavirus (COVID-19) it is possible that this app will show stress on emergency care facilities when aggregated across locations as indicated by increasing wait times.",
-                " However, note I have no insight into how these wait times are updated and there is not indication that they will be accurate during a time of crisis.",
+                " Given the current coronavirus (COVID-19) it is possible that this data will show stress on emergency care facilities when aggregated across locations as indicated by increasing wait times.",
+                " However, note I have no insight into how these wait times are updated and there is no indication that they will be accurate during a time of crisis.",
+                " ER wait time webpages are queried once per hour to minimally stress their hosts.",
                 headerPanel(""),
                 fluidRow(
                     column(6, 
@@ -39,7 +40,14 @@ shinyUI(
             fluidRow(plotOutput("all_observations_scatterplot"))
                 ),
             headerPanel(""),
-            fluidRow(DTOutput("facilities_tracked"))
+            fluidRow(DTOutput("facilities_tracked")),
+            tags$head(tags$style(HTML('
+                                /* body */
+                                .content-wrapper, .right-side {
+                                background-color: #ffffff;
+                                }
+
+                                ')))
             )
     )
 

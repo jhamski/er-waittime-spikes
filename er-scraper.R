@@ -126,5 +126,3 @@ print(paste0("Scraped ER wait times at: ", Sys.time()))
 
 
 
-
-
