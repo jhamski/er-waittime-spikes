@@ -22,6 +22,7 @@ er_wait_times <- er_wait_times %>%
 
 ```{r}
 er_wait_times %>% 
+  filter(!is.na(State)) %>% 
   ggplot(aes(x = read_timestamp, y = total_minutes)) + 
   geom_point(aes(color = State)) +
   #geom_line(aes(color = hospital_webpage)) + 
@@ -30,11 +31,16 @@ er_wait_times %>%
 ```
 
 ```{r}
-er_wait_times %>% 
+
+er_wait_times %>%
+  filter(!is.na(State)) %>% 
   ggplot(aes(x = hospital_webpage, y = total_minutes)) +
   geom_boxplot() + 
-  stat_summary(fun.data = give.n, geom = "text", fun.y = median,
-                  position = position_dodge(width = 0.75)) +
-  theme_minimal()
+  #stat_summary(fun.data = give.n, geom = "text", fun.y = median,
+                  #position = position_dodge(width = 0.75)) +
+  facet_wrap(~State, scales = "free_x") +
+  theme_minimal() +
+  ylab("Stated Wait Time (Minutes)") +
+  xlab("")
 ```
 

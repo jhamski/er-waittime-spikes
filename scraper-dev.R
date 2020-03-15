@@ -1,3 +1,41 @@
+south_texas_url <- "https://www.southtexashealthsystem.com/our-facilities"
+south_texas_content <- read_html(south_texas_url)
+south_texas_timestamp = Sys.time()
+
+south_texas_labels <- c("South Texas Health System Edinburg",
+                        "South Texas Health System ER Alamo",
+                        "South Texas Health System ER McColl",
+                        "South Texas Health System ER Mission",
+                        "South Texas Health System ER Monte Cristo",
+                        "South Texas Health System ER Ware Road",
+                        "South Texas Health System ER Weslaco",
+                        "South Texas Health System Heart")
+
+south_texas_wait <- south_texas_content %>% 
+  rvest::html_nodes('body') %>%
+  xml2::xml_find_all("//*[contains(@class, 'display_minutes_time')]") %>% 
+  rvest::html_text() %>% 
+  tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+  mutate(hospital_webpage = "South Texas Health System",
+         total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
+         read_timestamp = south_texas_timestamp, 
+         site_labels = south_texas_labels)
+
+
+longview_url <- "https://www.longviewregional.com/er-wait-time"
+longview_content <- read_html(longview_url)
+longview_timestamp = Sys.time()
+
+longview_wait <- longview_content %>% 
+  rvest::html_nodes('body') %>%
+  xml2::xml_find_all("//*[contains(@id, 'spForTable')]") %>% 
+  rvest::html_text() %>% 
+  tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+  distinct(scraped_waittimes) %>% 
+  mutate(hospital_webpage = "Longview TX",
+         total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
+         read_timestamp = longview_timestamp, 
+         site_labels = "Longview Regional Medical Center, TX")
 
 nyu_langone_url <- "https://nyulangone.org/locations/emergency-care"
 
@@ -11,9 +49,9 @@ nyu_langone_wait <- nyu_langone_content %>%
   tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
   distinct(scraped_waittimes) %>% 
   mutate(hospital_webpage = "NYU Langone",
-       total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")),
-       read_timestamp = nyu_langone_timestamp, 
-       site_labels = c("NYU Langone Hospital—Brooklyn", "NYU Langone Health—Cobble Hill"))
+         total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
+         read_timestamp = nyu_langone_timestamp, 
+         site_labels = c("NYU Langone Hospital—Brooklyn", "NYU Langone Health—Cobble Hill"))
 
 
 # uses JS to load time

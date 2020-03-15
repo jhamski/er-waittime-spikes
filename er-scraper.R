@@ -7,8 +7,8 @@ library(lubridate)
 setwd("/Users/Jim/Documents/R/er-waitime-spikes")
 
 waittimes_record_existing <- read_csv("waittimes_record.csv")
-scrape_waittimes <- function(){
-  
+
+scrape_mary_washington <- function(){
   # Mary Washington
   mary_washington_url <- "https://www.marywashingtonhealthcare.com/ER-Wait-Times.aspx"
   
@@ -34,8 +34,13 @@ scrape_waittimes <- function(){
     mutate(hospital_webpage = "Mary Washington",
            total_minutes = as.numeric(scraped_waittimes),
            read_timestamp = mary_washington_read_timestamp, 
-           site_labels = mary_washington_labels)
+           site_labels = mary_washington_labels,
+           scraped_waittimes = as.character(scraped_waittimes))
   
+  return(mary_washington_wait)
+}
+  
+scrape_atrium <- function(){
   atrium_url <- "https://atriumhealth.org/locations/emergency-care-locations"
   atrium_content <- read_html(atrium_url)
   atrium_read_timestamp = Sys.time()
@@ -65,8 +70,13 @@ scrape_waittimes <- function(){
              replace_na(0),
            total_minutes = displayed_minutes + (hours * 60),
            read_timestamp = atrium_read_timestamp, 
-           site_labels = atrium_site_labels)
+           site_labels = atrium_site_labels,
+           scraped_waittimes = as.character(scraped_waittimes))
   
+  return(atrium_waittimes)
+}
+  
+scrape_kaleida <- function(){
   kaleida_content <- "https://m.kaleidahealth.org/er/"
   kaleida_content <- read_html(kaleida_content)
   kaleida_read_timestamp = Sys.time()
@@ -87,9 +97,12 @@ scrape_waittimes <- function(){
     mutate(hospital_webpage = "Kaleida",
            total_minutes = as.numeric(scraped_waittimes),
            read_timestamp = kaleida_read_timestamp, 
-           site_labels = kaleida_labels)
+           site_labels = kaleida_labels,
+           scraped_waittimes = as.character(scraped_waittimes))
+  return(kaleida_wait)
+}  
   
-  
+scrape_nyu <- function(){
   nyu_langone_url <- "https://nyulangone.org/locations/emergency-care"
   
   nyu_langone_content <- read_html(nyu_langone_url)
@@ -104,13 +117,72 @@ scrape_waittimes <- function(){
     mutate(hospital_webpage = "NYU Langone",
            total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
            read_timestamp = nyu_langone_timestamp, 
-           site_labels = c("NYU Langone Hospital—Brooklyn", "NYU Langone Health—Cobble Hill"))
+           site_labels = c("NYU Langone Hospital—Brooklyn", "NYU Langone Health—Cobble Hill"),
+           scraped_waittimes = as.character(scraped_waittimes))
   
-  waittimes_record = atrium_waittimes %>% 
-    select(scraped_waittimes, hospital_webpage, total_minutes, read_timestamp, site_labels) %>% 
-    bind_rows(mary_washington_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)),
-              kaleida_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)),
-              nyu_langone_wait %>% mutate(scraped_waittimes = as.character(scraped_waittimes)))
+  return(nyu_langone_wait)
+}  
+  
+scrape_longview <- function(){
+  longview_url <- "https://www.longviewregional.com/er-wait-time"
+  longview_content <- read_html(longview_url)
+  longview_timestamp = Sys.time()
+  
+  longview_wait <- longview_content %>% 
+    rvest::html_nodes('body') %>%
+    xml2::xml_find_all("//*[contains(@id, 'spForTable')]") %>% 
+    rvest::html_text() %>% 
+    tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+    distinct(scraped_waittimes) %>% 
+    mutate(hospital_webpage = "Longview TX",
+           total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
+           read_timestamp = longview_timestamp, 
+           site_labels = "Longview Regional Medical Center, TX",
+           scraped_waittimes = as.character(scraped_waittimes))
+  return(longview_wait)
+}
+  
+  
+scrape_south_texas <- function(){
+  south_texas_url <- "https://www.southtexashealthsystem.com/our-facilities"
+  south_texas_content <- read_html(south_texas_url)
+  south_texas_timestamp = Sys.time()
+  
+  south_texas_labels <- c("South Texas Health System Children's", 
+                          "South Texas Health System Edinburg",
+                          "South Texas Health System ER Alamo",
+                          "South Texas Health System ER McColl",
+                          "South Texas Health System ER Mission",
+                          "South Texas Health System ER Monte Cristo",
+                          "South Texas Health System ER Ware Road",
+                          "South Texas Health System ER Weslaco",
+                          "South Texas Health System Heart")
+  
+  south_texas_wait <- south_texas_content %>% 
+    rvest::html_nodes('body') %>%
+    xml2::xml_find_all("//*[contains(@class, 'display_minutes_time')]") %>% 
+    rvest::html_text() %>% 
+    tibble::enframe(name = NULL, value = "scraped_waittimes") %>% 
+    mutate(hospital_webpage = "South Texas Health System",
+           total_minutes =  str_extract(scraped_waittimes, regex("[0-9]+")) %>% as.numeric(),
+           read_timestamp = south_texas_timestamp,
+           site_labels = south_texas_labels,
+           scraped_waittimes = as.character(scraped_waittimes))
+  return(south_texas_wait)
+}
+
+
+scrape_waittimes <- function(){
+    
+  waittimes_record <- bind_rows(
+    scrape_mary_washington(),
+    scrape_atrium(),
+    scrape_kaleida(),
+    scrape_longview(),
+    scrape_nyu(),
+    tryCatch(expr =scrape_south_texas(), error = function(cond){return(NULL)})
+  )
+  
   
   return(waittimes_record)
 }

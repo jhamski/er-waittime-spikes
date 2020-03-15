@@ -20,9 +20,24 @@ shinyServer(function(input, output) {
 
     })
     
+    output$wait_boxplots <- renderPlot({
+      er_wait_times %>%
+        filter(!is.na(State)) %>% 
+        ggplot(aes(x = hospital_webpage, y = total_minutes)) +
+        geom_boxplot() + 
+        #stat_summary(fun.data = give.n, geom = "text", fun.y = median,
+        #position = position_dodge(width = 0.75)) +
+        facet_wrap(~State, scales = "free_x") +
+        theme_minimal() +
+        ylab("Stated Wait Time (Minutes)") +
+        xlab("")
+    })
+    
     output$facilities_tracked <- renderDT({
       er_wait_times %>% 
         select(hospital_webpage, site_labels, total_minutes, read_timestamp, State, URL)
     })
-
+    
+    
+    
 })

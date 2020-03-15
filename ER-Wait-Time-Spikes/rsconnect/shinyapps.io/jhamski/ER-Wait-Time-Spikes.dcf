@@ -5,8 +5,9 @@ account: jhamski
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1949075
-bundleId: 2881903
+bundleId: 2883862
 url: https://jhamski.shinyapps.io/ER-Wait-Time-Spikes/
-when: 1584222006.37743
+when: 1584296072.09286
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: shiny-deploy-script.R
