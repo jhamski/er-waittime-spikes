@@ -7,6 +7,10 @@ library(tidyverse)
 library(anomalize)
 library(tibbletime)
 library(forecast)
+library(lubridate)
+library(patchwork)
+library(tsibble)
+library(feasts)
 ```
 
 Note timestamp is in UTC timezone. 
@@ -21,14 +25,48 @@ er_wait_times <- er_wait_times %>%
 
 
 ```{r}
-er_wait_times %>% 
+er_wait_time_scatter <- er_wait_times %>% 
   filter(!is.na(State)) %>% 
   ggplot(aes(x = read_timestamp, y = total_minutes)) + 
   geom_point(aes(color = State)) +
-  #geom_line(aes(color = hospital_webpage)) + 
   theme_minimal() +
   geom_smooth() 
+
+er_wait_time_scatter
 ```
+
+```{r}
+state_range <- er_wait_times %>% 
+  filter(!is.na(State)) %>% 
+  group_by(State) %>% 
+  summarize(max_timestamp = max(read_timestamp),
+            min_timestamp = min(read_timestamp))
+
+ggplot(state_range, aes(x = fct_rev(State))) +
+  geom_linerange(aes(ymin = min_timestamp, ymax = max_timestamp, color = State), size = 7) + 
+  scale_y_datetime(limits = c(min(er_wait_times$read_timestamp), max(er_wait_times$read_timestamp))) +
+  coord_flip() + 
+  theme_minimal()
+```
+
+
+```{r}
+facilities_recorded_plot <- er_wait_times %>% 
+  filter(!is.na(State)) %>% 
+  mutate(nearest_hour = round_date(read_timestamp, "hour")) %>% 
+  group_by(nearest_hour) %>%
+  summarize(obs = n_distinct(site_labels)) %>% 
+  ggplot(aes(x = nearest_hour, y = obs)) + 
+  geom_col() +
+  theme_minimal()
+
+facilities_recorded_plot
+```
+
+```{r}
+er_wait_time_scatter / facilities_recorded_plot
+```
+
 
 ```{r}
 
@@ -42,5 +80,15 @@ er_wait_times %>%
   theme_minimal() +
   ylab("Stated Wait Time (Minutes)") +
   xlab("")
+```
+
+```{r}
+er_wait_times_ts <- er_wait_times %>% 
+  select(read_timestamp, site_labels, total_minutes) %>%
+  distinct(.keep_all = T) %>% 
+  as_tsibble(key = site_labels, index = read_timestamp) %>% 
+  fill_gaps()
+
+gg_season(er_wait_times_ts, total_minutes)
 ```
 

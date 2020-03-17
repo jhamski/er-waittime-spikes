@@ -17,12 +17,11 @@ shinyUI(
         dashboardSidebar(collapsed = TRUE, disable = TRUE),
         dashboardBody(
             fluidPage(
-                "This app uses web scraping to observe stated Emergency Room (ER) wait times for several facilities in the United States. It is informational purposes only and should not be used for any decision making. If you are having a medical emergency, call 911.",
-                " Given the current coronavirus (COVID-19) pandemic it is possible that this data will show stress on emergency care facilities when aggregated across locations as indicated by increasing wait times.",
-                " However, note I have no insight into how these wait times are updated and there is no indication that they will be accurate during a time of crisis.",
-                " ER wait time webpages are queried once per hour to minimally stress their hosts.", 
-                " Next steps are to (1) search for more wait times to scrape, (2) see if there are proxies that would allow the complex seasonality and variance to be estimated despite the limited number of observations, and (3) improve visualization.",
-                " See the data and code here: https://github.com/jhamski/er-waittime-spikes.",
+                fluidRow(includeMarkdown("intro-text.md")),
+                headerPanel(""),
+                fluidRow(
+                    column(4, downloadButton("downloadData", "Download Wait Time Data"))
+                ),
                 headerPanel(""),
                 fluidRow(
                     column(4, 
@@ -31,7 +30,7 @@ shinyUI(
                                    icon = icon("plus", lib = "glyphicon"),
                                    fill = TRUE, color = "yellow", width = NULL)
                            ),
-                    column(4, infoBox(title = "States Tracked", value = unique(er_wait_times$State) %>% length(), 
+                    column(4, infoBox(title = "States Represented", value = unique(er_wait_times$State) %>% length(), 
                                       #subtitle = 
                                       icon = icon("map-marker", lib = "glyphicon"),
                                       fill = TRUE, color = "yellow", width = NULL)
@@ -45,9 +44,18 @@ shinyUI(
                     ),
                 headerPanel(""),
             fluidRow(
-                column(8, plotOutput("all_observations_scatterplot")),
+                column(8, checkboxGroupInput("states_selected", "States", 
+                                             choices = unique(er_wait_times$State),
+                                             selected = unique(er_wait_times$State),
+                                             inline = TRUE),
+                       plotOutput("all_observations_scatterplot")),
                 column(4, plotOutput("wait_boxplots"))
                 ),
+            fluidRow(
+                column(8, plotOutput("state_data_timerange", height = 125)),
+                column(4, NULL)
+            ),
+            
             headerPanel(""),
             fluidRow(DTOutput("facilities_tracked")),
             tags$head(tags$style(HTML('

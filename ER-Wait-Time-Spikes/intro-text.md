@@ -1,0 +1,7 @@
+# Emergency Room and Urgent Care Wait Time Web Scraper
+
+This app uses web scraping to observe stated Emergency Room (ER) and urgent care facility wait times for  facilities in the United States. It is experimental purposes only and should not be used for any decision making. If you are having a medical emergency, call 911.
+
+Given the  coronavirus (COVID-19) pandemic it is *possible* that this data will show stress on emergency care facilities when aggregated across locations as indicated by increasing wait times. However, note I have no insight into how these wait times are updated and there is no indication that they will be accurate during a time of crisis. Furthermore, the facilities tracked here were based on ease of scraping their wait times and by searching for online wait times near major cities, not a systematic search or rational sampling method. The visual aid of a fit line in the time series does not yet account for the fact that the set of facilities tracked has changed each day as new scraping was developed. ER wait time webpages are queried once per hour to minimally stress their hosts. 
+
+Next steps are to (1) search for more wait times to scrape, (2) see if there are proxies that would allow the complex seasonality and variance to be estimated despite the limited scope of observations, (3) improve visualization, and (4) explore ways of identifying trends or anomalies give the incomplete data set. [See the data and code here](https://github.com/jhamski/er-waittime-spikes).
