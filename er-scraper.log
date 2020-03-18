@@ -3222,3 +3222,1554 @@ cols(
   site_labels = col_character()
 )
 [1] "Scraped ER wait times at: 2020-03-16 22:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-16 23:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 00:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 01:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 02:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 03:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 04:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 05:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 06:11:14"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 07:11:27"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 08:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 09:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 10:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 11:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 12:11:13"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 13:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 14:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 15:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 16:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 17:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 18:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 19:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 20:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 21:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 22:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-17 23:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 00:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 01:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 02:11:13"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 03:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 04:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 05:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+Warning message:
+In for (i in seq_along(args)) { :
+  closing unused connection 3 (https://www.longviewregional.com/er-wait-time)
+[1] "Scraped ER wait times at: 2020-03-18 06:11:09"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 07:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 08:11:11"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 09:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 10:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 11:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 12:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 13:11:13"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 14:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 15:11:12"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 16:11:10"
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Loading required package: xml2
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:purrr':
+
+    pluck
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Parsed with column specification:
+cols(
+  scraped_waittimes = col_character(),
+  hospital_webpage = col_character(),
+  total_minutes = col_double(),
+  read_timestamp = col_datetime(format = ""),
+  site_labels = col_character()
+)
+[1] "Scraped ER wait times at: 2020-03-18 17:11:11"

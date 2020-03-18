@@ -14,6 +14,7 @@ realtime_hospital_list <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1MC
 
 er_wait_times <- er_wait_times %>% 
   left_join(realtime_hospital_list, by = "site_labels") %>% 
-  filter(!is.na(State))
+  filter(!is.na(State)) %>% 
+  filter(facility_type %in% c("Hospital", "Urgent Care"))
 
 

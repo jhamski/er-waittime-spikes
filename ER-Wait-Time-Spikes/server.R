@@ -12,11 +12,11 @@ shinyServer(function(input, output) {
           filter(State %in% input$states_selected) %>% 
           ggplot(aes(x = read_timestamp, y = total_minutes)) + 
           geom_point(aes(color = State)) +
-          #geom_line(aes(color = hospital_webpage)) + 
+          facet_wrap(~ facility_type, ncol = 1) +
           theme_minimal() +
           geom_smooth() +
           xlab("Timestamp (UTC)") +
-          ylab("Stated Public Wait Time (Minutes)")
+          ylab("Stated Public Wait Time (Minutes)") 
         
 
     })

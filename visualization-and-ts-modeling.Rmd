@@ -11,6 +11,8 @@ library(lubridate)
 library(patchwork)
 library(tsibble)
 library(feasts)
+library(gsheet)
+
 ```
 
 Note timestamp is in UTC timezone. 
@@ -28,6 +30,7 @@ er_wait_times <- er_wait_times %>%
 er_wait_time_scatter <- er_wait_times %>% 
   filter(!is.na(State)) %>% 
   ggplot(aes(x = read_timestamp, y = total_minutes)) + 
+  facet_wrap(~ facility_type, ncol = 1) +
   geom_point(aes(color = State)) +
   theme_minimal() +
   geom_smooth() 

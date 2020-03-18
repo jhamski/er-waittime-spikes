@@ -25,7 +25,7 @@ shinyUI(
                 headerPanel(""),
                 fluidRow(
                     column(4, 
-                           infoBox(title = "ER Facilities Tracked", value = er_facility_count, 
+                           infoBox(title = "Facilities Tracked", value = er_facility_count, 
                                    #subtitle = 
                                    icon = icon("plus", lib = "glyphicon"),
                                    fill = TRUE, color = "yellow", width = NULL)
